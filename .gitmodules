@@ -1,0 +1,3 @@
+[submodule "extern/ia256-utilities"]
+	path = extern/ia256-utilities
+	url = git@github.com:IceArrow256/ia256-utilities.git

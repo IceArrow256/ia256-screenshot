@@ -29,3 +29,7 @@ tasks:
   update:
     cmds:
       - git submodule foreach git pull origin master
+
+  run:
+    cmds:
+      - '{{if eq OS "windows"}}./build/ia256-screenshot.exe{{else}}./build/ia256-screenshot{{end}}'

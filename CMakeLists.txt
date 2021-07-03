@@ -21,3 +21,5 @@ target_include_directories(ia256-screenshot PRIVATE
 
 target_link_libraries(ia256-screenshot PUBLIC ia256-utilities)
 
+install(TARGETS ia256-screenshot DESTINATION ${CMAKE_INSTALL_PREFIX}/bin)
+
